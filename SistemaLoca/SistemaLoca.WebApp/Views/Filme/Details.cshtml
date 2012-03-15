@@ -1,0 +1,25 @@
+﻿@model SistemaLoca.BusinnesLogic.Model.Filme
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Filme</legend>
+
+    <div class="display-label">Titulo</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Titulo)
+    </div>
+
+    <div class="display-label">Ano</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Ano)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
