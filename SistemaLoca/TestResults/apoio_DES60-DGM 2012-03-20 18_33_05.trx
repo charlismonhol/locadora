@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="82062892-287b-41d8-8b1b-eddace9be7a1" name="apoio@DES60-DGM 2012-03-20 18:33:05" runUser="des60-dgm\apoio" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0a3deafb-a919-4f94-9df5-6cda4eec66d9">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="D:\el\locadora\SistemaLoca\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="apoio_DES60-DGM 2012-03-20 18_33_05">
+      <DeploymentItem filename="D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic\bin\Debug\SistemaLoca.BusinnesLogic.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-20T18:33:05.4265376-03:00" queuing="2012-03-20T18:33:06.4715973-03:00" start="2012-03-20T18:33:06.5155999-03:00" finish="2012-03-20T18:33:11.9729120-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="10" executed="10" passed="5" error="0" failed="5" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="RemoverFilmeTeste" storage="d:\el\locadora\sistemaloca\sistemaloca.businneslogic.teste\bin\debug\sistemaloca.businneslogic.teste.dll" id="dfdedd35-8743-c58a-2176-22415a20ccaf">
+      <Execution id="4fbaa659-ad42-4631-8b9c-9c5ef0abdf15" />
+      <TestMethod codeBase="D:/el/locadora/SistemaLoca/SistemaLoca.BusinnesLogic.Teste/bin/Debug/SistemaLoca.BusinnesLogic.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaLoca.BusinnesLogic.Teste.FilmeTesteRepository, SistemaLoca.BusinnesLogic.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RemoverFilmeTeste" />
+    </UnitTest>
+    <UnitTest name="RemoverFilmeTeste" storage="d:\el\locadora\sistemaloca\sistemaloca.businneslogic.teste\bin\debug\sistemaloca.businneslogic.teste.dll" id="c20d63fb-5063-ddc9-65c2-a7e6815a3756">
+      <Execution id="dd175080-0309-43a0-a933-1888f06404a5" />
+      <TestMethod codeBase="D:/el/locadora/SistemaLoca/SistemaLoca.BusinnesLogic.Teste/bin/Debug/SistemaLoca.BusinnesLogic.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaLoca.BusinnesLogic.Teste.FilmeTeste, SistemaLoca.BusinnesLogic.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RemoverFilmeTeste" />
+    </UnitTest>
+    <UnitTest name="InserirFilmeTeste" storage="d:\el\locadora\sistemaloca\sistemaloca.businneslogic.teste\bin\debug\sistemaloca.businneslogic.teste.dll" id="a97a00e4-0e8f-7abb-5b96-b3b4ef73d13c">
+      <Execution id="8e4405b1-8b87-4db0-af2d-42183e88e609" />
+      <TestMethod codeBase="D:/el/locadora/SistemaLoca/SistemaLoca.BusinnesLogic.Teste/bin/Debug/SistemaLoca.BusinnesLogic.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaLoca.BusinnesLogic.Teste.FilmeTeste, SistemaLoca.BusinnesLogic.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InserirFilmeTeste" />
+    </UnitTest>
+    <UnitTest name="AtualizarFilmeTeste" storage="d:\el\locadora\sistemaloca\sistemaloca.businneslogic.teste\bin\debug\sistemaloca.businneslogic.teste.dll" id="fcae5a0f-86a5-a623-fa81-def7adffcf49">
+      <Execution id="5b11baa9-7a45-4df8-935a-0c802cfcfda8" />
+      <TestMethod codeBase="D:/el/locadora/SistemaLoca/SistemaLoca.BusinnesLogic.Teste/bin/Debug/SistemaLoca.BusinnesLogic.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaLoca.BusinnesLogic.Teste.FilmeTesteRepository, SistemaLoca.BusinnesLogic.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AtualizarFilmeTeste" />
+    </UnitTest>
+    <UnitTest name="InserirFilmeTeste" storage="d:\el\locadora\sistemaloca\sistemaloca.businneslogic.teste\bin\debug\sistemaloca.businneslogic.teste.dll" id="73f6fd73-f0a5-285b-68e4-10ee4f0a11f6">
+      <Execution id="4c8cb863-14a1-4e2f-90b4-0af09fa73b49" />
+      <TestMethod codeBase="D:/el/locadora/SistemaLoca/SistemaLoca.BusinnesLogic.Teste/bin/Debug/SistemaLoca.BusinnesLogic.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaLoca.BusinnesLogic.Teste.FilmeTesteRepository, SistemaLoca.BusinnesLogic.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InserirFilmeTeste" />
+    </UnitTest>
+    <UnitTest name="AtualizarFilmeTeste" storage="d:\el\locadora\sistemaloca\sistemaloca.businneslogic.teste\bin\debug\sistemaloca.businneslogic.teste.dll" id="90f29b99-d62c-356e-4b2e-273dcc86a936">
+      <Execution id="fb621e6b-a8f2-4dd2-b5be-dd7dbd3b9bf5" />
+      <TestMethod codeBase="D:/el/locadora/SistemaLoca/SistemaLoca.BusinnesLogic.Teste/bin/Debug/SistemaLoca.BusinnesLogic.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaLoca.BusinnesLogic.Teste.FilmeTeste, SistemaLoca.BusinnesLogic.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AtualizarFilmeTeste" />
+    </UnitTest>
+    <UnitTest name="ConsultarFilmePorTituloTeste" storage="d:\el\locadora\sistemaloca\sistemaloca.businneslogic.teste\bin\debug\sistemaloca.businneslogic.teste.dll" id="689fa120-a2b3-1315-55de-578d85d72fa4">
+      <Execution id="9de0c39b-8d22-4d4c-874c-ad49c0b8b799" />
+      <TestMethod codeBase="D:/el/locadora/SistemaLoca/SistemaLoca.BusinnesLogic.Teste/bin/Debug/SistemaLoca.BusinnesLogic.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaLoca.BusinnesLogic.Teste.FilmeTesteRepository, SistemaLoca.BusinnesLogic.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConsultarFilmePorTituloTeste" />
+    </UnitTest>
+    <UnitTest name="ConsultarFilmePorIdTeste" storage="d:\el\locadora\sistemaloca\sistemaloca.businneslogic.teste\bin\debug\sistemaloca.businneslogic.teste.dll" id="ff3cd099-70b1-3772-9c92-9e3d69c7024b">
+      <Execution id="3754f75c-26ed-44b6-b6fd-6202fde2eeb5" />
+      <TestMethod codeBase="D:/el/locadora/SistemaLoca/SistemaLoca.BusinnesLogic.Teste/bin/Debug/SistemaLoca.BusinnesLogic.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaLoca.BusinnesLogic.Teste.FilmeTesteRepository, SistemaLoca.BusinnesLogic.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConsultarFilmePorIdTeste" />
+    </UnitTest>
+    <UnitTest name="ConsultarFilmePorIdTeste" storage="d:\el\locadora\sistemaloca\sistemaloca.businneslogic.teste\bin\debug\sistemaloca.businneslogic.teste.dll" id="a9eb9ad8-2dcd-5488-c554-b1353bd46ba8">
+      <Execution id="2313d5ea-d8e7-4771-bb93-2767dd8d1ab5" />
+      <TestMethod codeBase="D:/el/locadora/SistemaLoca/SistemaLoca.BusinnesLogic.Teste/bin/Debug/SistemaLoca.BusinnesLogic.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaLoca.BusinnesLogic.Teste.FilmeTeste, SistemaLoca.BusinnesLogic.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConsultarFilmePorIdTeste" />
+    </UnitTest>
+    <UnitTest name="ConsultarFilmePorTituloTeste" storage="d:\el\locadora\sistemaloca\sistemaloca.businneslogic.teste\bin\debug\sistemaloca.businneslogic.teste.dll" id="39e625ce-1dac-a815-adeb-a2aa51b5a253">
+      <Execution id="e60f3079-c8a9-4bb1-a4d4-569864e76b20" />
+      <TestMethod codeBase="D:/el/locadora/SistemaLoca/SistemaLoca.BusinnesLogic.Teste/bin/Debug/SistemaLoca.BusinnesLogic.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaLoca.BusinnesLogic.Teste.FilmeTeste, SistemaLoca.BusinnesLogic.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConsultarFilmePorTituloTeste" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="90f29b99-d62c-356e-4b2e-273dcc86a936" executionId="fb621e6b-a8f2-4dd2-b5be-dd7dbd3b9bf5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fcae5a0f-86a5-a623-fa81-def7adffcf49" executionId="5b11baa9-7a45-4df8-935a-0c802cfcfda8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a97a00e4-0e8f-7abb-5b96-b3b4ef73d13c" executionId="8e4405b1-8b87-4db0-af2d-42183e88e609" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73f6fd73-f0a5-285b-68e4-10ee4f0a11f6" executionId="4c8cb863-14a1-4e2f-90b4-0af09fa73b49" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c20d63fb-5063-ddc9-65c2-a7e6815a3756" executionId="dd175080-0309-43a0-a933-1888f06404a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9eb9ad8-2dcd-5488-c554-b1353bd46ba8" executionId="2313d5ea-d8e7-4771-bb93-2767dd8d1ab5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="689fa120-a2b3-1315-55de-578d85d72fa4" executionId="9de0c39b-8d22-4d4c-874c-ad49c0b8b799" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff3cd099-70b1-3772-9c92-9e3d69c7024b" executionId="3754f75c-26ed-44b6-b6fd-6202fde2eeb5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="39e625ce-1dac-a815-adeb-a2aa51b5a253" executionId="e60f3079-c8a9-4bb1-a4d4-569864e76b20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dfdedd35-8743-c58a-2176-22415a20ccaf" executionId="4fbaa659-ad42-4631-8b9c-9c5ef0abdf15" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="fb621e6b-a8f2-4dd2-b5be-dd7dbd3b9bf5" testId="90f29b99-d62c-356e-4b2e-273dcc86a936" testName="AtualizarFilmeTeste" computerName="DES60-DGM" duration="00:00:03.5546999" startTime="2012-03-20T18:33:06.5426014-03:00" endTime="2012-03-20T18:33:10.4458247-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb621e6b-a8f2-4dd2-b5be-dd7dbd3b9bf5">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SistemaLoca.BusinnesLogic.Teste.FilmeTeste.AtualizarFilmeTeste threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at SistemaLoca.BusinnesLogic.Teste.FilmeTeste.AtualizarFilmeTeste() in D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic.Teste\FilmeTeste.cs:line 67
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5b11baa9-7a45-4df8-935a-0c802cfcfda8" testId="fcae5a0f-86a5-a623-fa81-def7adffcf49" testName="AtualizarFilmeTeste" computerName="DES60-DGM" duration="00:00:00.3722444" startTime="2012-03-20T18:33:10.4478248-03:00" endTime="2012-03-20T18:33:10.8258464-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b11baa9-7a45-4df8-935a-0c802cfcfda8">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SistemaLoca.BusinnesLogic.Teste.FilmeTesteRepository.AtualizarFilmeTeste threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at SistemaLoca.BusinnesLogic.Teste.FilmeTesteRepository.AtualizarFilmeTeste() in D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic.Teste\FilmeTesteRepository.cs:line 74
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8e4405b1-8b87-4db0-af2d-42183e88e609" testId="a97a00e4-0e8f-7abb-5b96-b3b4ef73d13c" testName="InserirFilmeTeste" computerName="DES60-DGM" duration="00:00:00.0301818" startTime="2012-03-20T18:33:10.8578482-03:00" endTime="2012-03-20T18:33:10.9108513-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e4405b1-8b87-4db0-af2d-42183e88e609">
+    </UnitTestResult>
+    <UnitTestResult executionId="4c8cb863-14a1-4e2f-90b4-0af09fa73b49" testId="73f6fd73-f0a5-285b-68e4-10ee4f0a11f6" testName="InserirFilmeTeste" computerName="DES60-DGM" duration="00:00:00.1540743" startTime="2012-03-20T18:33:10.9138514-03:00" endTime="2012-03-20T18:33:11.0728605-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c8cb863-14a1-4e2f-90b4-0af09fa73b49">
+    </UnitTestResult>
+    <UnitTestResult executionId="dd175080-0309-43a0-a933-1888f06404a5" testId="c20d63fb-5063-ddc9-65c2-a7e6815a3756" testName="RemoverFilmeTeste" computerName="DES60-DGM" duration="00:00:00.3699162" startTime="2012-03-20T18:33:11.0768607-03:00" endTime="2012-03-20T18:33:11.4538823-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd175080-0309-43a0-a933-1888f06404a5">
+    </UnitTestResult>
+    <UnitTestResult executionId="2313d5ea-d8e7-4771-bb93-2767dd8d1ab5" testId="a9eb9ad8-2dcd-5488-c554-b1353bd46ba8" testName="ConsultarFilmePorIdTeste" computerName="DES60-DGM" duration="00:00:00.0116487" startTime="2012-03-20T18:33:11.4588826-03:00" endTime="2012-03-20T18:33:11.4768836-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2313d5ea-d8e7-4771-bb93-2767dd8d1ab5">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SistemaLoca.BusinnesLogic.Teste.FilmeTeste.ConsultarFilmePorIdTeste threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at SistemaLoca.BusinnesLogic.Teste.FilmeTeste.ConsultarFilmePorIdTeste() in D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic.Teste\FilmeTeste.cs:line 60
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9de0c39b-8d22-4d4c-874c-ad49c0b8b799" testId="689fa120-a2b3-1315-55de-578d85d72fa4" testName="ConsultarFilmePorTituloTeste" computerName="DES60-DGM" duration="00:00:00.1245379" startTime="2012-03-20T18:33:11.4908844-03:00" endTime="2012-03-20T18:33:11.6218919-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9de0c39b-8d22-4d4c-874c-ad49c0b8b799">
+    </UnitTestResult>
+    <UnitTestResult executionId="3754f75c-26ed-44b6-b6fd-6202fde2eeb5" testId="ff3cd099-70b1-3772-9c92-9e3d69c7024b" testName="ConsultarFilmePorIdTeste" computerName="DES60-DGM" duration="00:00:00.0124931" startTime="2012-03-20T18:33:11.6248921-03:00" endTime="2012-03-20T18:33:11.6428931-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3754f75c-26ed-44b6-b6fd-6202fde2eeb5">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SistemaLoca.BusinnesLogic.Teste.FilmeTesteRepository.ConsultarFilmePorIdTeste threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at SistemaLoca.BusinnesLogic.Teste.FilmeTesteRepository.ConsultarFilmePorIdTeste() in D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic.Teste\FilmeTesteRepository.cs:line 67
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e60f3079-c8a9-4bb1-a4d4-569864e76b20" testId="39e625ce-1dac-a815-adeb-a2aa51b5a253" testName="ConsultarFilmePorTituloTeste" computerName="DES60-DGM" duration="00:00:00.0224737" startTime="2012-03-20T18:33:11.6528937-03:00" endTime="2012-03-20T18:33:11.6808953-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e60f3079-c8a9-4bb1-a4d4-569864e76b20">
+    </UnitTestResult>
+    <UnitTestResult executionId="4fbaa659-ad42-4631-8b9c-9c5ef0abdf15" testId="dfdedd35-8743-c58a-2176-22415a20ccaf" testName="RemoverFilmeTeste" computerName="DES60-DGM" duration="00:00:00.2072988" startTime="2012-03-20T18:33:11.6918959-03:00" endTime="2012-03-20T18:33:11.9039081-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4fbaa659-ad42-4631-8b9c-9c5ef0abdf15">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SistemaLoca.BusinnesLogic.Teste.FilmeTesteRepository.RemoverFilmeTeste threw exception: 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: entity</Message>
+          <StackTrace>    at System.Data.Entity.ModelConfiguration.Utilities.RuntimeFailureMethods.ReportFailure(ContractFailureKind contractFailureKind, String userMessage, String conditionText, Exception innerException)
+   at System.Data.Entity.DbContext.Entry[TEntity](TEntity entity)
+   at Passatempo.LogicaNegocio.Repository.Repository`1.Delete(TEntity entityToDelete_) in D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic\Repositorio\generico\Repository.cs:line 92
+   at SistemaLoca.BusinnesLogic.Teste.FilmeTesteRepository.RemoverFilmeTeste() in D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic.Teste\FilmeTesteRepository.cs:line 84
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
