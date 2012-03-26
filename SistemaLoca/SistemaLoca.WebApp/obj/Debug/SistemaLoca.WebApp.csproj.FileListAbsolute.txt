@@ -7,3 +7,12 @@ H:\pos\08 - analise OO\projeto\prjLocadora2\SistemaLoca\SistemaLoca.WebApp\bin\E
 H:\pos\08 - analise OO\projeto\prjLocadora2\SistemaLoca\SistemaLoca.WebApp\obj\Debug\ResolveAssemblyReference.cache
 H:\pos\08 - analise OO\projeto\prjLocadora2\SistemaLoca\SistemaLoca.WebApp\obj\Debug\SistemaLoca.WebApp.dll
 H:\pos\08 - analise OO\projeto\prjLocadora2\SistemaLoca\SistemaLoca.WebApp\obj\Debug\SistemaLoca.WebApp.pdb
+D:\el\locadora\SistemaLoca\SistemaLoca.WebApp\bin\SistemaLoca.WebApp.dll
+D:\el\locadora\SistemaLoca\SistemaLoca.WebApp\bin\SistemaLoca.WebApp.pdb
+D:\el\locadora\SistemaLoca\SistemaLoca.WebApp\bin\EntityFramework.dll
+D:\el\locadora\SistemaLoca\SistemaLoca.WebApp\bin\SistemaLoca.BusinnesLogic.dll
+D:\el\locadora\SistemaLoca\SistemaLoca.WebApp\bin\SistemaLoca.BusinnesLogic.pdb
+D:\el\locadora\SistemaLoca\SistemaLoca.WebApp\bin\EntityFramework.xml
+D:\el\locadora\SistemaLoca\SistemaLoca.WebApp\obj\Debug\ResolveAssemblyReference.cache
+D:\el\locadora\SistemaLoca\SistemaLoca.WebApp\obj\Debug\SistemaLoca.WebApp.dll
+D:\el\locadora\SistemaLoca\SistemaLoca.WebApp\obj\Debug\SistemaLoca.WebApp.pdb

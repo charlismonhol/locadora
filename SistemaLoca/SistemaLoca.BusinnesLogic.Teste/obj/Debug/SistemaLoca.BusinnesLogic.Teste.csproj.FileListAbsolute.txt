@@ -14,3 +14,11 @@ H:\pos\08 - analise OO\projeto\prjLocadora2\SistemaLoca\SistemaLoca.BusinnesLogi
 H:\pos\08 - analise OO\projeto\prjLocadora2\SistemaLoca\SistemaLoca.BusinnesLogic.Teste\bin\Debug\SistemaLoca.BusinnesLogic.dll
 H:\pos\08 - analise OO\projeto\prjLocadora2\SistemaLoca\SistemaLoca.BusinnesLogic.Teste\bin\Debug\SistemaLoca.BusinnesLogic.pdb
 H:\pos\08 - analise OO\projeto\prjLocadora2\SistemaLoca\SistemaLoca.BusinnesLogic.Teste\obj\Debug\SistemaLoca.BusinnesLogic.Teste.pdb
+D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic.Teste\obj\Debug\ResolveAssemblyReference.cache
+D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic.Teste\obj\Debug\SistemaLoca.BusinnesLogic.Teste.dll
+D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic.Teste\obj\Debug\SistemaLoca.BusinnesLogic.Teste.pdb
+D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic.Teste\bin\Debug\SistemaLoca.BusinnesLogic.Teste.dll.config
+D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic.Teste\bin\Debug\SistemaLoca.BusinnesLogic.Teste.dll
+D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic.Teste\bin\Debug\SistemaLoca.BusinnesLogic.Teste.pdb
+D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic.Teste\bin\Debug\SistemaLoca.BusinnesLogic.dll
+D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic.Teste\bin\Debug\SistemaLoca.BusinnesLogic.pdb

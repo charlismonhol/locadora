@@ -8,3 +8,8 @@ H:\pos\08 - analise OO\projeto\prjLocadora2\SistemaLoca\SistemaLoca.BusinnesLogi
 H:\pos\08 - analise OO\projeto\prjLocadora2\SistemaLoca\SistemaLoca.BusinnesLogic\obj\Debug\ResolveAssemblyReference.cache
 H:\pos\08 - analise OO\projeto\prjLocadora2\SistemaLoca\SistemaLoca.BusinnesLogic\obj\Debug\SistemaLoca.BusinnesLogic.dll
 H:\pos\08 - analise OO\projeto\prjLocadora2\SistemaLoca\SistemaLoca.BusinnesLogic\obj\Debug\SistemaLoca.BusinnesLogic.pdb
+D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic\bin\Debug\SistemaLoca.BusinnesLogic.dll
+D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic\bin\Debug\SistemaLoca.BusinnesLogic.pdb
+D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic\obj\Debug\ResolveAssemblyReference.cache
+D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic\obj\Debug\SistemaLoca.BusinnesLogic.dll
+D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic\obj\Debug\SistemaLoca.BusinnesLogic.pdb
