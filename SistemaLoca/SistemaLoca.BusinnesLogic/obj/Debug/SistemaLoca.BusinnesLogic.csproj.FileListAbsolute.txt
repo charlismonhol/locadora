@@ -13,3 +13,4 @@ D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic\bin\Debug\SistemaLoca.Busin
 D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic\obj\Debug\ResolveAssemblyReference.cache
 D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic\obj\Debug\SistemaLoca.BusinnesLogic.dll
 D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic\obj\Debug\SistemaLoca.BusinnesLogic.pdb
+D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic\bin\Debug\SistemaLoca.BusinnesLogic.dll.config

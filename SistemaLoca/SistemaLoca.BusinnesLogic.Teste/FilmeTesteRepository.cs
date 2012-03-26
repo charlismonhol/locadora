@@ -7,6 +7,7 @@ using SistemaLoca.BusinnesLogic.Model;
 using System.Data.Entity;
 using Passatempo.LogicaNegocio.Repository;
 using SistemaLoca.BusinnesLogic.Repositorio;
+using SistemaLoca.BusinnesLogic.Model.ControleAcervo;
 
 namespace SistemaLoca.BusinnesLogic.Teste
 {

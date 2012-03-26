@@ -6,6 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using SistemaLoca.BusinnesLogic.Model;
+using SistemaLoca.BusinnesLogic.Model.ControleAcervo;
 
 namespace SistemaLoca.WebApp.Controllers
 { 
