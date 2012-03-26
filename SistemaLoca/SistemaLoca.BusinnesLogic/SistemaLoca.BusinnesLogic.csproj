@@ -43,14 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\ControleAcervo\Distribuidora.cs" />
+    <Compile Include="Model\ControleAcervo\Genero.cs" />
+    <Compile Include="Model\ControleAcervo\Midia.cs" />
     <Compile Include="Model\SistemaLocaDBContext.cs" />
-    <Compile Include="Model\Filme.cs" />
-    <Compile Include="Model\ItemFilme.cs" />
+    <Compile Include="Model\ControleAcervo\Filme.cs" />
+    <Compile Include="Model\ControleAcervo\ItemFilme.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositorio\ItemFilmeRepository.cs" />
-    <Compile Include="Repositorio\FilmeRepository.cs" />
-    <Compile Include="Repositorio\generico\Repository.cs" />
-    <Compile Include="Repositorio\generico\UnitOfWork.cs" />
+    <Compile Include="Repositorio\ControleAcervo\ItemFilmeRepository.cs" />
+    <Compile Include="Repositorio\ControleAcervo\FilmeRepository.cs" />
+    <Compile Include="Repositorio\Repository.cs" />
+    <Compile Include="Repositorio\UnitOfWork.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\AtendimentoCliente\" />
+    <Folder Include="Repositorio\AtendimentoCliente\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
