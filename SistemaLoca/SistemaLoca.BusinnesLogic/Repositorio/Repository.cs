@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using SistemaLoca.BusinnesLogic.Model;
 
 
-namespace Passatempo.LogicaNegocio.Repository
+namespace SistemaLoca.BusinnesLogic.Repositorio.ControleAcervo
 {
     //Padrão de implementação de repositório
     //http://www.asp.net/entity-framework/tutorials/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application

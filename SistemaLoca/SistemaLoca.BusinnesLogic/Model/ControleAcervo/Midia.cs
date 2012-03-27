@@ -8,14 +8,14 @@ namespace SistemaLoca.BusinnesLogic.Model.ControleAcervo
 {
     public class Midia
     {
-        [Key]
-        [Column("idMidia")]
+        //[Key]
+        //[Column("idMidia")]
         public int Id { get; set; }
 
         [Required]
         [StringLength(60)]
         private string descricao { get; set; }
 
-        public virtual ICollection<Filme> Filmes { get; set; }
+        //public virtual ICollection<Filme> Filmes { get; set; }
     }
 }

@@ -5,7 +5,7 @@ using System.Text;
 using SistemaLoca.BusinnesLogic.Model.ControleAcervo;
 using SistemaLoca.BusinnesLogic.Model;
 
-namespace Passatempo.LogicaNegocio.Repository
+namespace SistemaLoca.BusinnesLogic.Repositorio.ControleAcervo
 {
     public class FilmeRepository : Repository<Filme>
     {

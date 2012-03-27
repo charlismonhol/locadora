@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using SistemaLoca.BusinnesLogic.Model;
 using SistemaLoca.BusinnesLogic.Repositorio;
+using SistemaLoca.BusinnesLogic.Repositorio.ControleAcervo;
 
-namespace Passatempo.LogicaNegocio.Repository
+namespace SistemaLoca.BusinnesLogic.Repositorio
 {
     //Padrão de implementação de unidade de trabalho
     //http://www.asp.net/entity-framework/tutorials/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application
@@ -72,10 +73,35 @@ namespace Passatempo.LogicaNegocio.Repository
             {
                 if (this._itemFilmeRepository == null)
                 {
-                    this._itemFilmeRepository =
-                        new ItemFilmeRepository(this._dbContext);
+                    this._itemFilmeRepository = new ItemFilmeRepository(this._dbContext);
                 }
                 return this._itemFilmeRepository;
+            }
+        }
+
+        private GeneroRepository _generoRepository;
+        public GeneroRepository generoRepository
+        {
+            get
+            {
+                if (this._generoRepository == null)
+                {
+                    this._generoRepository = new GeneroRepository(this._dbContext);
+                }
+                return this._generoRepository;
+            }
+        }
+
+        private MidiaRepository _midiaRepository;
+        public MidiaRepository midiaRepository
+        {
+            get
+            {
+                if (this._midiaRepository == null)
+                {
+                    this._midiaRepository = new MidiaRepository(this._dbContext);
+                }
+                return this._midiaRepository;
             }
         }
     }

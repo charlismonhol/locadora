@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Passatempo.LogicaNegocio.Repository;
 using SistemaLoca.BusinnesLogic.Model.ControleAcervo;
 using SistemaLoca.BusinnesLogic.Model;
 
-namespace SistemaLoca.BusinnesLogic.Repositorio
+namespace SistemaLoca.BusinnesLogic.Repositorio.ControleAcervo
 {
     public class ItemFilmeRepository : Repository<ItemFilme>
     {

@@ -55,8 +55,11 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="Repositorio\ControleAcervo\DistribuidoraRepository.cs" />
+    <Compile Include="Repositorio\ControleAcervo\GeneroRepository.cs" />
     <Compile Include="Repositorio\ControleAcervo\ItemFilmeRepository.cs" />
     <Compile Include="Repositorio\ControleAcervo\FilmeRepository.cs" />
+    <Compile Include="Repositorio\ControleAcervo\MidiaRepository.cs" />
     <Compile Include="Repositorio\Repository.cs" />
     <Compile Include="Repositorio\UnitOfWork.cs" />
     <Compile Include="sistemaLocaDataSet.Designer.cs">

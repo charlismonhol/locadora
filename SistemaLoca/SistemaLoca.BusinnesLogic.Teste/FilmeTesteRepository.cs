@@ -5,7 +5,6 @@ using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SistemaLoca.BusinnesLogic.Model;
 using System.Data.Entity;
-using Passatempo.LogicaNegocio.Repository;
 using SistemaLoca.BusinnesLogic.Repositorio;
 using SistemaLoca.BusinnesLogic.Model.ControleAcervo;
 
