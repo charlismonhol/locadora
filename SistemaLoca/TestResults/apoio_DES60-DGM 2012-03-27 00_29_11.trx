@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4f03078e-5342-40b1-8c18-b866c94caa64" name="apoio@DES60-DGM 2012-03-27 00:29:11" runUser="des60-dgm\apoio" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0a3deafb-a919-4f94-9df5-6cda4eec66d9">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="apoio_DES60-DGM 2012-03-27 00_29_11">
+      <DeploymentItem filename="D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic\bin\Debug\SistemaLoca.BusinnesLogic.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-27T00:29:11.8049022-03:00" queuing="2012-03-27T00:29:13.8820210-03:00" start="2012-03-27T00:29:13.9720261-03:00" finish="2012-03-27T00:29:21.0874331-03:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="10" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="9" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DES60-DGM" outcome="Error" timestamp="2012-03-27T00:29:21.0674319-03:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="InserirFilmeTeste" storage="d:\el\locadora\sistemaloca\sistemaloca.businneslogic.teste\bin\debug\sistemaloca.businneslogic.teste.dll" id="a97a00e4-0e8f-7abb-5b96-b3b4ef73d13c">
+      <Execution id="5dc6afd2-8f25-47a2-8073-6cb0722a7db2" />
+      <TestMethod codeBase="D:/el/locadora/SistemaLoca/SistemaLoca.BusinnesLogic.Teste/bin/Debug/SistemaLoca.BusinnesLogic.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaLoca.BusinnesLogic.Teste.FilmeTeste, SistemaLoca.BusinnesLogic.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InserirFilmeTeste" />
+    </UnitTest>
+    <UnitTest name="RemoverFilmeTeste" storage="d:\el\locadora\sistemaloca\sistemaloca.businneslogic.teste\bin\debug\sistemaloca.businneslogic.teste.dll" id="dfdedd35-8743-c58a-2176-22415a20ccaf">
+      <Execution id="c560ac45-832f-4134-bb09-657d262fbc71" />
+      <TestMethod codeBase="D:/el/locadora/SistemaLoca/SistemaLoca.BusinnesLogic.Teste/bin/Debug/SistemaLoca.BusinnesLogic.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaLoca.BusinnesLogic.Teste.FilmeTesteRepository, SistemaLoca.BusinnesLogic.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RemoverFilmeTeste" />
+    </UnitTest>
+    <UnitTest name="RemoverFilmeTeste" storage="d:\el\locadora\sistemaloca\sistemaloca.businneslogic.teste\bin\debug\sistemaloca.businneslogic.teste.dll" id="c20d63fb-5063-ddc9-65c2-a7e6815a3756">
+      <Execution id="6427d808-70d9-45f4-a0da-7a825c5b8ff3" />
+      <TestMethod codeBase="D:/el/locadora/SistemaLoca/SistemaLoca.BusinnesLogic.Teste/bin/Debug/SistemaLoca.BusinnesLogic.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaLoca.BusinnesLogic.Teste.FilmeTeste, SistemaLoca.BusinnesLogic.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RemoverFilmeTeste" />
+    </UnitTest>
+    <UnitTest name="InserirFilmeTeste" storage="d:\el\locadora\sistemaloca\sistemaloca.businneslogic.teste\bin\debug\sistemaloca.businneslogic.teste.dll" id="73f6fd73-f0a5-285b-68e4-10ee4f0a11f6">
+      <Execution id="69b3947c-cb6c-485c-9e79-d3c2aaa0c4f6" />
+      <TestMethod codeBase="D:/el/locadora/SistemaLoca/SistemaLoca.BusinnesLogic.Teste/bin/Debug/SistemaLoca.BusinnesLogic.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaLoca.BusinnesLogic.Teste.FilmeTesteRepository, SistemaLoca.BusinnesLogic.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InserirFilmeTeste" />
+    </UnitTest>
+    <UnitTest name="AtualizarFilmeTeste" storage="d:\el\locadora\sistemaloca\sistemaloca.businneslogic.teste\bin\debug\sistemaloca.businneslogic.teste.dll" id="fcae5a0f-86a5-a623-fa81-def7adffcf49">
+      <Execution id="babc0581-a40d-4920-a58f-28ab56e8c9b2" />
+      <TestMethod codeBase="D:/el/locadora/SistemaLoca/SistemaLoca.BusinnesLogic.Teste/bin/Debug/SistemaLoca.BusinnesLogic.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaLoca.BusinnesLogic.Teste.FilmeTesteRepository, SistemaLoca.BusinnesLogic.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AtualizarFilmeTeste" />
+    </UnitTest>
+    <UnitTest name="AtualizarFilmeTeste" storage="d:\el\locadora\sistemaloca\sistemaloca.businneslogic.teste\bin\debug\sistemaloca.businneslogic.teste.dll" id="90f29b99-d62c-356e-4b2e-273dcc86a936">
+      <Execution id="7c975e97-e9a8-401f-a4cf-c3d4ec0ffa8b" />
+      <TestMethod codeBase="D:/el/locadora/SistemaLoca/SistemaLoca.BusinnesLogic.Teste/bin/Debug/SistemaLoca.BusinnesLogic.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaLoca.BusinnesLogic.Teste.FilmeTeste, SistemaLoca.BusinnesLogic.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AtualizarFilmeTeste" />
+    </UnitTest>
+    <UnitTest name="ConsultarFilmePorTituloTeste" storage="d:\el\locadora\sistemaloca\sistemaloca.businneslogic.teste\bin\debug\sistemaloca.businneslogic.teste.dll" id="689fa120-a2b3-1315-55de-578d85d72fa4">
+      <Execution id="bf090b1f-0364-4b53-8dc5-a2b877f76092" />
+      <TestMethod codeBase="D:/el/locadora/SistemaLoca/SistemaLoca.BusinnesLogic.Teste/bin/Debug/SistemaLoca.BusinnesLogic.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaLoca.BusinnesLogic.Teste.FilmeTesteRepository, SistemaLoca.BusinnesLogic.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConsultarFilmePorTituloTeste" />
+    </UnitTest>
+    <UnitTest name="ConsultarFilmePorIdTeste" storage="d:\el\locadora\sistemaloca\sistemaloca.businneslogic.teste\bin\debug\sistemaloca.businneslogic.teste.dll" id="ff3cd099-70b1-3772-9c92-9e3d69c7024b">
+      <Execution id="da539e76-ff26-4857-8740-7849639e5b6d" />
+      <TestMethod codeBase="D:/el/locadora/SistemaLoca/SistemaLoca.BusinnesLogic.Teste/bin/Debug/SistemaLoca.BusinnesLogic.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaLoca.BusinnesLogic.Teste.FilmeTesteRepository, SistemaLoca.BusinnesLogic.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConsultarFilmePorIdTeste" />
+    </UnitTest>
+    <UnitTest name="ConsultarFilmePorIdTeste" storage="d:\el\locadora\sistemaloca\sistemaloca.businneslogic.teste\bin\debug\sistemaloca.businneslogic.teste.dll" id="a9eb9ad8-2dcd-5488-c554-b1353bd46ba8">
+      <Execution id="04c6142f-1873-49d9-86f4-5178031fdf1f" />
+      <TestMethod codeBase="D:/el/locadora/SistemaLoca/SistemaLoca.BusinnesLogic.Teste/bin/Debug/SistemaLoca.BusinnesLogic.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaLoca.BusinnesLogic.Teste.FilmeTeste, SistemaLoca.BusinnesLogic.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConsultarFilmePorIdTeste" />
+    </UnitTest>
+    <UnitTest name="ConsultarFilmePorTituloTeste" storage="d:\el\locadora\sistemaloca\sistemaloca.businneslogic.teste\bin\debug\sistemaloca.businneslogic.teste.dll" id="39e625ce-1dac-a815-adeb-a2aa51b5a253">
+      <Execution id="184d2513-ff04-44b1-8947-338eee01beeb" />
+      <TestMethod codeBase="D:/el/locadora/SistemaLoca/SistemaLoca.BusinnesLogic.Teste/bin/Debug/SistemaLoca.BusinnesLogic.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaLoca.BusinnesLogic.Teste.FilmeTeste, SistemaLoca.BusinnesLogic.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConsultarFilmePorTituloTeste" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="73f6fd73-f0a5-285b-68e4-10ee4f0a11f6" executionId="69b3947c-cb6c-485c-9e79-d3c2aaa0c4f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="689fa120-a2b3-1315-55de-578d85d72fa4" executionId="bf090b1f-0364-4b53-8dc5-a2b877f76092" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff3cd099-70b1-3772-9c92-9e3d69c7024b" executionId="da539e76-ff26-4857-8740-7849639e5b6d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fcae5a0f-86a5-a623-fa81-def7adffcf49" executionId="babc0581-a40d-4920-a58f-28ab56e8c9b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dfdedd35-8743-c58a-2176-22415a20ccaf" executionId="c560ac45-832f-4134-bb09-657d262fbc71" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a97a00e4-0e8f-7abb-5b96-b3b4ef73d13c" executionId="5dc6afd2-8f25-47a2-8073-6cb0722a7db2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="39e625ce-1dac-a815-adeb-a2aa51b5a253" executionId="184d2513-ff04-44b1-8947-338eee01beeb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9eb9ad8-2dcd-5488-c554-b1353bd46ba8" executionId="04c6142f-1873-49d9-86f4-5178031fdf1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90f29b99-d62c-356e-4b2e-273dcc86a936" executionId="7c975e97-e9a8-401f-a4cf-c3d4ec0ffa8b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c20d63fb-5063-ddc9-65c2-a7e6815a3756" executionId="6427d808-70d9-45f4-a0da-7a825c5b8ff3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="69b3947c-cb6c-485c-9e79-d3c2aaa0c4f6" testId="73f6fd73-f0a5-285b-68e4-10ee4f0a11f6" testName="InserirFilmeTeste" computerName="DES60-DGM" duration="00:00:07.0614039" startTime="2012-03-27T00:29:14.0080282-03:00" endTime="2012-03-27T00:29:21.0694321-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="69b3947c-cb6c-485c-9e79-d3c2aaa0c4f6">
+    </UnitTestResult>
+    <UnitTestResult executionId="bf090b1f-0364-4b53-8dc5-a2b877f76092" testId="689fa120-a2b3-1315-55de-578d85d72fa4" testName="ConsultarFilmePorTituloTeste" computerName="DES60-DGM" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf090b1f-0364-4b53-8dc5-a2b877f76092">
+    </UnitTestResult>
+    <UnitTestResult executionId="da539e76-ff26-4857-8740-7849639e5b6d" testId="ff3cd099-70b1-3772-9c92-9e3d69c7024b" testName="ConsultarFilmePorIdTeste" computerName="DES60-DGM" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da539e76-ff26-4857-8740-7849639e5b6d">
+    </UnitTestResult>
+    <UnitTestResult executionId="babc0581-a40d-4920-a58f-28ab56e8c9b2" testId="fcae5a0f-86a5-a623-fa81-def7adffcf49" testName="AtualizarFilmeTeste" computerName="DES60-DGM" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="babc0581-a40d-4920-a58f-28ab56e8c9b2">
+    </UnitTestResult>
+    <UnitTestResult executionId="c560ac45-832f-4134-bb09-657d262fbc71" testId="dfdedd35-8743-c58a-2176-22415a20ccaf" testName="RemoverFilmeTeste" computerName="DES60-DGM" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c560ac45-832f-4134-bb09-657d262fbc71">
+    </UnitTestResult>
+    <UnitTestResult executionId="5dc6afd2-8f25-47a2-8073-6cb0722a7db2" testId="a97a00e4-0e8f-7abb-5b96-b3b4ef73d13c" testName="InserirFilmeTeste" computerName="DES60-DGM" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5dc6afd2-8f25-47a2-8073-6cb0722a7db2">
+    </UnitTestResult>
+    <UnitTestResult executionId="184d2513-ff04-44b1-8947-338eee01beeb" testId="39e625ce-1dac-a815-adeb-a2aa51b5a253" testName="ConsultarFilmePorTituloTeste" computerName="DES60-DGM" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="184d2513-ff04-44b1-8947-338eee01beeb">
+    </UnitTestResult>
+    <UnitTestResult executionId="04c6142f-1873-49d9-86f4-5178031fdf1f" testId="a9eb9ad8-2dcd-5488-c554-b1353bd46ba8" testName="ConsultarFilmePorIdTeste" computerName="DES60-DGM" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="04c6142f-1873-49d9-86f4-5178031fdf1f">
+    </UnitTestResult>
+    <UnitTestResult executionId="7c975e97-e9a8-401f-a4cf-c3d4ec0ffa8b" testId="90f29b99-d62c-356e-4b2e-273dcc86a936" testName="AtualizarFilmeTeste" computerName="DES60-DGM" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c975e97-e9a8-401f-a4cf-c3d4ec0ffa8b">
+    </UnitTestResult>
+    <UnitTestResult executionId="6427d808-70d9-45f4-a0da-7a825c5b8ff3" testId="c20d63fb-5063-ddc9-65c2-a7e6815a3756" testName="RemoverFilmeTeste" computerName="DES60-DGM" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6427d808-70d9-45f4-a0da-7a825c5b8ff3">
+    </UnitTestResult>
+  </Results>
+</TestRun>
