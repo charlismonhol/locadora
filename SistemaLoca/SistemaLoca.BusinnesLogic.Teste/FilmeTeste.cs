@@ -30,14 +30,14 @@ namespace SistemaLoca.BusinnesLogic.Teste
             {
                 Titulo = "Matrix",
                 Ano = 1999,
-                Itens = new List<ItemFilme>()
+             //   Itens = new List<ItemFilme>()
             };
-            filme.Itens.Add(new ItemFilme
+           /*  filme.Itens.Add(new ItemFilme
             {
                 NumeroSerie = 1234,
                 Filme = filme
             });
-
+            */
             dbContext.Filmes.Add(filme);
             dbContext.SaveChanges();
 

@@ -14,9 +14,9 @@ namespace SistemaLoca.BusinnesLogic.Model
 
         public DbSet<Filme> Filmes { get; set; }
         public DbSet<ItemFilme> ItensFilme { get; set; }
-        //public DbSet<Genero> Generos { get; set; }
-        //public DbSet<Midia> Midias { get; set; }
-        //public DbSet<Distribuidora> Distribuidoras { get; set; }
+        public DbSet<Genero> Generos { get; set; }
+        public DbSet<Midia> Midias { get; set; }
+        public DbSet<Distribuidora> Distribuidoras { get; set; }
 
         //Atendimento ao Cliente
 
