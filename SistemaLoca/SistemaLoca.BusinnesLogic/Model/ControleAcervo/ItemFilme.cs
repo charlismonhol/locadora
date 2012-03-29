@@ -12,10 +12,10 @@ namespace SistemaLoca.BusinnesLogic.Model.ControleAcervo
         //[Column("idItemFilme")]
         public int Id { get; set; }
 
-        [Required]
+       // [Required]
         public int NumeroSerie { get; set; }
 
-        [Required]
+        //[Required]
         public DateTime DataAquisicao { get; set; }
 
         // Associação de muitos para 1
@@ -23,7 +23,6 @@ namespace SistemaLoca.BusinnesLogic.Model.ControleAcervo
         // O atributo required implica na regra cascade delete quando o filme for removido
         //[Required]
         //[ForeignKey("IdFilme")]
-        
         public virtual Filme Filme { get; set; }
     }
 }

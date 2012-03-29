@@ -13,7 +13,7 @@ namespace SistemaLoca.BusinnesLogic.Model.ControleAcervo
         //[Column("idFilme")]
         public int Id { get; set; }
 
-        [StringLength(60)]
+        //[StringLength(60)]
         public string Titulo { get; set; }
 
         public int Ano { get; set; }
