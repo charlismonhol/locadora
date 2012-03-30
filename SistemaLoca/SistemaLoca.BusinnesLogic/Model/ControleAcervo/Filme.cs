@@ -13,7 +13,7 @@ namespace SistemaLoca.BusinnesLogic.Model.ControleAcervo
         //[Column("idFilme")]
         public int Id { get; set; }
 
-        //[StringLength(60)]
+        [StringLength(60)]
         public string Titulo { get; set; }
 
         public int Ano { get; set; }
@@ -21,16 +21,10 @@ namespace SistemaLoca.BusinnesLogic.Model.ControleAcervo
         // associação de muitos para um 
         // virtual é necessário para habilitar o lazy loading
         public virtual List<ItemFilme> Itens { get; set; }
+                        
+        public virtual Genero Genero { get; set;}
 
-        //private int IdGenero { get; set; }
-        
-        //[ForeignKey("IdGenero")]
-        //public virtual Genero Genero { get; set;}
-
-        //private int IdDistribuidora { get; set; }
-
-        //[ForeignKey("IdDistribuidora")]
-        //public virtual Distribuidora Distribuidora { get; set; }
+        public virtual Distribuidora Distribuidora { get; set; }
 
     }
 }

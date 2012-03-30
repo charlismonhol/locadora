@@ -18,9 +18,9 @@ namespace SistemaLoca.BusinnesLogic.Model
         public DbSet<Midia> Midias { get; set; }
         public DbSet<Distribuidora> Distribuidoras { get; set; }
 
-        //Atendimento ao Cliente
+        ////Atendimento ao Cliente
 
-        public DbSet<Cliente> Clientes { get; set; }
-        public DbSet<Titular> Titulares { get; set; }
+        //public DbSet<Cliente> Clientes { get; set; }
+        //public DbSet<Titular> Titulares { get; set; }
     }
 }
