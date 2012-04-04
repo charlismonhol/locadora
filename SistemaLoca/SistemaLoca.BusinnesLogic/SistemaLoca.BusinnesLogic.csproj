@@ -43,11 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\AtendimentoCliente\Cliente.cs" />
-    <Compile Include="Model\AtendimentoCliente\Dependente.cs" />
+    <Compile Include="Model\ControleCliente\Cliente.cs" />
+    <Compile Include="Model\ControleCliente\Dependente.cs" />
+    <Compile Include="Model\AtendimentoCliente\Devolucao.cs" />
     <Compile Include="Model\AtendimentoCliente\Locacao.cs" />
     <Compile Include="Model\AtendimentoCliente\Reserva.cs" />
-    <Compile Include="Model\AtendimentoCliente\Titular.cs" />
+    <Compile Include="Model\ControleCliente\Titular.cs" />
     <Compile Include="Model\ControleAcervo\Distribuidora.cs" />
     <Compile Include="Model\ControleAcervo\Genero.cs" />
     <Compile Include="Model\ControleAcervo\Midia.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="Repositorio\ControleAcervo\ItemFilmeRepository.cs" />
     <Compile Include="Repositorio\ControleAcervo\FilmeRepository.cs" />
     <Compile Include="Repositorio\ControleAcervo\MidiaRepository.cs" />
+    <Compile Include="Repositorio\ControleCliente\ClienteRepository.cs" />
     <Compile Include="Repositorio\Repository.cs" />
     <Compile Include="Repositorio\UnitOfWork.cs" />
     <Compile Include="sistemaLocaDataSet.Designer.cs">

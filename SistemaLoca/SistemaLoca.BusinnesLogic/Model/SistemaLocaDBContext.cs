@@ -13,14 +13,22 @@ namespace SistemaLoca.BusinnesLogic.Model
         //Controle de Acervo
 
         public DbSet<Filme> Filmes { get; set; }
-        public DbSet<ItemFilme> ItensFilme { get; set; }
+        public DbSet<ItemFilme> ItensFilmes { get; set; }
         public DbSet<Genero> Generos { get; set; }
         public DbSet<Midia> Midias { get; set; }
         public DbSet<Distribuidora> Distribuidoras { get; set; }
 
         ////Atendimento ao Cliente
 
-        //public DbSet<Cliente> Clientes { get; set; }
-        //public DbSet<Titular> Titulares { get; set; }
+        public DbSet<Cliente> Clientes { get; set; }
+        public DbSet<Titular> Titulares { get; set; }
+        public DbSet<Dependente> Dependentes { get; set; }
+
+        public DbSet<Reserva> Reservas { get; set; }
+        public DbSet<Locacao> Locacoes { get; set; }
+        public DbSet<Devolucao> Delocucoes { get; set; }
+        
+        
+        
     }
 }

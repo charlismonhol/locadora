@@ -6,21 +6,21 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SistemaLoca.BusinnesLogic.Model;
 using System.Data.Entity;
 using SistemaLoca.BusinnesLogic.Model.ControleAcervo;
+using SistemaLoca.BusinnesLogic.Repositorio;
 
 namespace SistemaLoca.BusinnesLogic.Teste
 {
     [TestClass]
     public class FilmeTeste
     {
-        SistemaLocaDBContext dbContext;
+        UnitOfWork uow = new UnitOfWork();
 
         public FilmeTeste()
         {
             // Recria o banco de dados. É necessário fechar todas as conexões abertas 
             Database.SetInitializer(new DropCreateDatabaseAlways<SistemaLocaDBContext>());
 
-            // inicializa o contexto
-            dbContext = new SistemaLocaDBContext();
+            uow = new UnitOfWork();
         }
 
         [TestMethod]
@@ -38,11 +38,11 @@ namespace SistemaLoca.BusinnesLogic.Teste
                 Filme = filme,
                 DataAquisicao = DateTime.Now
             });
-            
-            dbContext.Filmes.Add(filme);
-            dbContext.SaveChanges();
 
-            filme = dbContext.Filmes.Find(1);
+
+            uow.FilmeRepository.Insert(filme);
+            uow.Save();
+            filme = uow.FilmeRepository.GetByID(1);
             Assert.AreEqual(filme.Titulo, "Matrix");
             Assert.AreEqual(filme.Itens.Count, 1);
         }
@@ -50,7 +50,7 @@ namespace SistemaLoca.BusinnesLogic.Teste
         [TestMethod]
         public void ConsultarFilmePorTituloTeste()
         {
-            Filme filme = dbContext.Filmes.Where(f => f.Titulo == "Matrix").First<Filme>();
+            Filme filme = uow.FilmeRepository.getFilmesPorTitulo("Matrix").First<Filme>();
             Assert.AreEqual(filme.Titulo, "Matrix");
             Assert.AreEqual(filme.Itens.Count, 1); // lazy loading test
         }
@@ -58,27 +58,27 @@ namespace SistemaLoca.BusinnesLogic.Teste
         [TestMethod]
         public void ConsultarFilmePorIdTeste()
         {
-            Filme filme = dbContext.Filmes.Find(1);
+            Filme filme = uow.FilmeRepository.GetByID(1);
             Assert.AreEqual(filme.Titulo, "Matrix");
         }
 
         [TestMethod]
         public void AtualizarFilmeTeste()
         {
-            Filme filme = dbContext.Filmes.Find(1);
+            Filme filme = uow.FilmeRepository.GetByID(1);
             filme.Titulo = "Matrix 2";
-            dbContext.SaveChanges();
-            filme = dbContext.Filmes.Find(1);
+            uow.Save();
+            filme = uow.FilmeRepository.GetByID(1);
             Assert.AreEqual(filme.Titulo, "Matrix 2");
         }
 
         [TestMethod]
         public void RemoverFilmeTeste()
         {
-            Filme filme = dbContext.Filmes.Find(1);
-            dbContext.Filmes.Remove(filme);
-            dbContext.SaveChanges();
-            filme = dbContext.Filmes.Find(1);
+            Filme filme = uow.FilmeRepository.GetByID(1);
+            uow.FilmeRepository.Delete(filme);
+            uow.Save();
+            filme = uow.FilmeRepository.GetByID(1);
             Assert.IsNull(filme);
         }
 

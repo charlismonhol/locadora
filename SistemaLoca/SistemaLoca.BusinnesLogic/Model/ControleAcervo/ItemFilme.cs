@@ -19,5 +19,7 @@ namespace SistemaLoca.BusinnesLogic.Model.ControleAcervo
         // Navegabilidade bidirecional
         // O atributo required implica na regra cascade delete quando o filme for removido
         public virtual Filme Filme { get; set; }
+
+        public virtual Midia Midia { get; set; }
     }
 }

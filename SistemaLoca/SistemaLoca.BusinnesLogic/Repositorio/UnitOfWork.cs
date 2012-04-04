@@ -5,6 +5,7 @@ using System.Text;
 using SistemaLoca.BusinnesLogic.Model;
 using SistemaLoca.BusinnesLogic.Repositorio;
 using SistemaLoca.BusinnesLogic.Repositorio.ControleAcervo;
+using SistemaLoca.BusinnesLogic.Repositorio.ControleCliente;
 
 namespace SistemaLoca.BusinnesLogic.Repositorio
 {
@@ -102,6 +103,32 @@ namespace SistemaLoca.BusinnesLogic.Repositorio
                     this._midiaRepository = new MidiaRepository(this._dbContext);
                 }
                 return this._midiaRepository;
+            }
+        }
+
+        private DistribuidoraRepository _distribuidoraRepository;
+        public DistribuidoraRepository distribuidoraRepository
+        {
+            get
+            {
+                if (this._distribuidoraRepository == null)
+                {
+                    this._distribuidoraRepository = new DistribuidoraRepository(this._dbContext);
+                }
+                return this._distribuidoraRepository;
+            }
+        }
+
+        private ClienteRepository _clienteRepository;
+        public ClienteRepository clienteRepository
+        {
+            get
+            {
+                if (this._clienteRepository == null)
+                {
+                    this._clienteRepository = new ClienteRepository(this._dbContext);
+                }
+                return this._clienteRepository;
             }
         }
     }
