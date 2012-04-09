@@ -11,7 +11,7 @@ namespace SistemaLoca.BusinnesLogic.Model.ControleAcervo
         public int Id { get; set; }
 
         [StringLength(60)]
-        private string descricao { get; set; }
+        public string descricao { get; set; }
 
         public virtual ICollection<Filme> Filmes { get; set; }
     }

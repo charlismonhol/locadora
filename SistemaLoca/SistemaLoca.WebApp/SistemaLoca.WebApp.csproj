@@ -174,21 +174,6 @@
     <Content Include="Views\Filme\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\ItemFilme\Index.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\ItemFilme\Details.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\ItemFilme\Create.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\ItemFilme\Edit.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\ItemFilme\Delete.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Views\Genero\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>

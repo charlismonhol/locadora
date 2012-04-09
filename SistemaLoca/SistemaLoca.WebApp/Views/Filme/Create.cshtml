@@ -30,6 +30,14 @@
             @Html.ValidationMessageFor(model => model.Ano)
         </div>
 
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Genero)
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("GeneroID", String.Empty)
+            @Html.ValidationMessageFor(model => model.GeneroID)
+        </div>
+
         <p>
             <input type="submit" value="Create" />
         </p>

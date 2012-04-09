@@ -17,7 +17,6 @@ namespace SistemaLoca.BusinnesLogic.Repositorio.ControleAcervo
         
         public List<Filme> getFilmesPorTitulo(string titulo)
         {
-            //return base._dbSet.Where(f => f.Titulo.StartsWith(titulo)).ToList<Filme>();
             return new List<Filme>(from f in _dbSet where f.Titulo.StartsWith(titulo) select f);
         }
     }

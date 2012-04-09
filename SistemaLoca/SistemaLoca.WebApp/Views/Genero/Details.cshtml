@@ -8,6 +8,11 @@
 
 <fieldset>
     <legend>Genero</legend>
+
+    <div class="display-label">descricao</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.descricao)
+    </div>
 </fieldset>
 <p>
     @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |

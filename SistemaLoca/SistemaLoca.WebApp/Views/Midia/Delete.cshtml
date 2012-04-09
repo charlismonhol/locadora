@@ -9,6 +9,11 @@
 <h3>Are you sure you want to delete this?</h3>
 <fieldset>
     <legend>Midia</legend>
+
+    <div class="display-label">descricao</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.descricao)
+    </div>
 </fieldset>
 @using (Html.BeginForm()) {
     <p>

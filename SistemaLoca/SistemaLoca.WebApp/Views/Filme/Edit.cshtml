@@ -32,6 +32,14 @@
             @Html.ValidationMessageFor(model => model.Ano)
         </div>
 
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Genero)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.GeneroID)
+            @Html.ValidationMessageFor(model => model.Ano)
+        </div>
+
         <p>
             <input type="submit" value="Save" />
         </p>

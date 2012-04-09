@@ -21,8 +21,11 @@ namespace SistemaLoca.BusinnesLogic.Model.ControleAcervo
         // associação de muitos para um 
         // virtual é necessário para habilitar o lazy loading
         public virtual List<ItemFilme> Itens { get; set; }
-                        
-        public virtual Genero Genero { get; set;}
+
+        [Required]
+        [Display(Name = "Gênero")]
+        public int GeneroID { get; set; }
+        public virtual Genero Genero { get; set; }
 
         public virtual Distribuidora Distribuidora { get; set; }
 

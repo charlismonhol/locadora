@@ -7,19 +7,20 @@ using System.Web;
 using System.Web.Mvc;
 using SistemaLoca.BusinnesLogic.Model.ControleAcervo;
 using SistemaLoca.BusinnesLogic.Model;
+using SistemaLoca.BusinnesLogic.Repositorio;
 
 namespace SistemaLoca.WebApp.Controllers
 { 
     public class FilmeController : Controller
     {
-        private SistemaLocaDBContext db = new SistemaLocaDBContext();
+        private UnitOfWork uow = new UnitOfWork();
 
         //
         // GET: /Filme/
 
         public ViewResult Index()
         {
-            return View(db.Filmes.ToList());
+            return View(uow.FilmeRepository.GetAll());
         }
 
         //
@@ -27,17 +28,26 @@ namespace SistemaLoca.WebApp.Controllers
 
         public ViewResult Details(int id)
         {
-            Filme filme = db.Filmes.Find(id);
+            Filme filme = uow.FilmeRepository.GetByID(id);
             return View(filme);
         }
-
+        
+        //INICIO DO COMBO
+        private void PopulateGenerosDropDownList(object selecionado = null)
+        {
+            IEnumerable<Genero> generos = uow.generoRepository.GetAll();
+            ViewData["GeneroID"] = new SelectList(generos, "Id", "descricao", selecionado);
+        }
+ 
         //
         // GET: /Filme/Create
 
         public ActionResult Create()
         {
+            PopulateGenerosDropDownList();
+
             return View();
-        } 
+        }
 
         //
         // POST: /Filme/Create
@@ -47,20 +57,22 @@ namespace SistemaLoca.WebApp.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Filmes.Add(filme);
-                db.SaveChanges();
-                return RedirectToAction("Index");  
+                uow.FilmeRepository.Insert(filme);
+                uow.Save();
+                return RedirectToAction("Index");
             }
 
+            PopulateGenerosDropDownList(filme.GeneroID);
             return View(filme);
+
         }
-        
+               
         //
         // GET: /Filme/Edit/5
  
         public ActionResult Edit(int id)
         {
-            Filme filme = db.Filmes.Find(id);
+            Filme filme = uow.FilmeRepository.GetByID(id);
             return View(filme);
         }
 
@@ -72,8 +84,8 @@ namespace SistemaLoca.WebApp.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Entry(filme).State = EntityState.Modified;
-                db.SaveChanges();
+                uow.FilmeRepository.Update(filme);    
+                uow.Save();
                 return RedirectToAction("Index");
             }
             return View(filme);
@@ -84,7 +96,7 @@ namespace SistemaLoca.WebApp.Controllers
  
         public ActionResult Delete(int id)
         {
-            Filme filme = db.Filmes.Find(id);
+            Filme filme = uow.FilmeRepository.GetByID(id);
             return View(filme);
         }
 
@@ -93,16 +105,16 @@ namespace SistemaLoca.WebApp.Controllers
 
         [HttpPost, ActionName("Delete")]
         public ActionResult DeleteConfirmed(int id)
-        {            
-            Filme filme = db.Filmes.Find(id);
-            db.Filmes.Remove(filme);
-            db.SaveChanges();
+        {
+            Filme filme = uow.FilmeRepository.GetByID(id);
+            uow.FilmeRepository.Delete(filme);
+            uow.Save();
             return RedirectToAction("Index");
         }
 
         protected override void Dispose(bool disposing)
         {
-            db.Dispose();
+            uow.Dispose();
             base.Dispose(disposing);
         }
     }

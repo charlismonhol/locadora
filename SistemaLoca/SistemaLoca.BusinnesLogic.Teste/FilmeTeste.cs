@@ -30,6 +30,7 @@ namespace SistemaLoca.BusinnesLogic.Teste
             {
                 Titulo = "Matrix",
                 Ano = 1999,
+                GeneroID = 1,
                Itens = new List<ItemFilme>()
             };
             filme.Itens.Add(new ItemFilme
@@ -76,6 +77,10 @@ namespace SistemaLoca.BusinnesLogic.Teste
         public void RemoverFilmeTeste()
         {
             Filme filme = uow.FilmeRepository.GetByID(1);
+            for(int i = 0; i < filme.Itens.Count ;i++){
+                uow.itemFilmeRepository.Delete(filme.Itens[i]);
+                uow.Save();
+            }
             uow.FilmeRepository.Delete(filme);
             uow.Save();
             filme = uow.FilmeRepository.GetByID(1);

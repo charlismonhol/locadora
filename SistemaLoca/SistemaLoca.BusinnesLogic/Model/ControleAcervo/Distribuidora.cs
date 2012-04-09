@@ -12,11 +12,11 @@ namespace SistemaLoca.BusinnesLogic.Model.ControleAcervo
 
         [Required]
         [StringLength(100)]
-        private string RazaoSocial { get; set; }
+        public string RazaoSocial { get; set; }
 
         [Required]
         [StringLength(14)]
-        private string cnpj { get; set; }
+        public string cnpj { get; set; }
 
         [StringLength(100)]
         public string Endereco { get; set; }

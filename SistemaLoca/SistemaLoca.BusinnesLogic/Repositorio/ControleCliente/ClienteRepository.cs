@@ -15,6 +15,5 @@ namespace SistemaLoca.BusinnesLogic.Repositorio.ControleCliente
         {
 
         }
-    {
     }
 }

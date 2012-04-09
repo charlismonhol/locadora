@@ -14,6 +14,14 @@
     <fieldset>
         <legend>Midia</legend>
 
+        <div class="editor-label">
+            @Html.LabelFor(model => model.descricao)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.descricao)
+            @Html.ValidationMessageFor(model => model.descricao)
+        </div>
+
         <p>
             <input type="submit" value="Create" />
         </p>
