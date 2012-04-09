@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f8e9fda0-30cc-4fbe-ae81-95ec63309cbc" name="apoio@DES60-DGM 2012-04-08 21:34:27" runUser="des60-dgm\apoio" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0a3deafb-a919-4f94-9df5-6cda4eec66d9">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="apoio_DES60-DGM 2012-04-08 21_34_27">
+      <DeploymentItem filename="D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic\bin\Debug\SistemaLoca.BusinnesLogic.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-08T21:34:27.7489985-03:00" queuing="2012-04-08T21:34:31.1421926-03:00" start="2012-04-08T21:34:31.3482043-03:00" finish="2012-04-08T21:35:49.3426654-03:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="5" executed="3" error="0" failed="2" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="2" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DES60-DGM" outcome="Error" timestamp="2012-04-08T21:35:49.2106578-03:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="RemoverFilmeTeste" storage="d:\el\locadora\sistemaloca\sistemaloca.businneslogic.teste\bin\debug\sistemaloca.businneslogic.teste.dll" id="c20d63fb-5063-ddc9-65c2-a7e6815a3756">
+      <Execution id="f4cbe62e-23ac-4ff2-b96e-a96e990e3673" />
+      <TestMethod codeBase="D:/el/locadora/SistemaLoca/SistemaLoca.BusinnesLogic.Teste/bin/Debug/SistemaLoca.BusinnesLogic.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaLoca.BusinnesLogic.Teste.FilmeTeste, SistemaLoca.BusinnesLogic.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RemoverFilmeTeste" />
+    </UnitTest>
+    <UnitTest name="InserirFilmeTeste" storage="d:\el\locadora\sistemaloca\sistemaloca.businneslogic.teste\bin\debug\sistemaloca.businneslogic.teste.dll" id="a97a00e4-0e8f-7abb-5b96-b3b4ef73d13c">
+      <Execution id="dbd6a88d-6286-4f70-819c-467212c7990c" />
+      <TestMethod codeBase="D:/el/locadora/SistemaLoca/SistemaLoca.BusinnesLogic.Teste/bin/Debug/SistemaLoca.BusinnesLogic.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaLoca.BusinnesLogic.Teste.FilmeTeste, SistemaLoca.BusinnesLogic.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InserirFilmeTeste" />
+    </UnitTest>
+    <UnitTest name="ConsultarFilmePorIdTeste" storage="d:\el\locadora\sistemaloca\sistemaloca.businneslogic.teste\bin\debug\sistemaloca.businneslogic.teste.dll" id="a9eb9ad8-2dcd-5488-c554-b1353bd46ba8">
+      <Execution id="c476e3c5-79f6-4486-be0a-4d1e375fd96a" />
+      <TestMethod codeBase="D:/el/locadora/SistemaLoca/SistemaLoca.BusinnesLogic.Teste/bin/Debug/SistemaLoca.BusinnesLogic.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaLoca.BusinnesLogic.Teste.FilmeTeste, SistemaLoca.BusinnesLogic.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConsultarFilmePorIdTeste" />
+    </UnitTest>
+    <UnitTest name="AtualizarFilmeTeste" storage="d:\el\locadora\sistemaloca\sistemaloca.businneslogic.teste\bin\debug\sistemaloca.businneslogic.teste.dll" id="90f29b99-d62c-356e-4b2e-273dcc86a936">
+      <Execution id="2a786d04-eb0c-45e0-8cc5-16a2c9fdd742" />
+      <TestMethod codeBase="D:/el/locadora/SistemaLoca/SistemaLoca.BusinnesLogic.Teste/bin/Debug/SistemaLoca.BusinnesLogic.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaLoca.BusinnesLogic.Teste.FilmeTeste, SistemaLoca.BusinnesLogic.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AtualizarFilmeTeste" />
+    </UnitTest>
+    <UnitTest name="ConsultarFilmePorTituloTeste" storage="d:\el\locadora\sistemaloca\sistemaloca.businneslogic.teste\bin\debug\sistemaloca.businneslogic.teste.dll" id="39e625ce-1dac-a815-adeb-a2aa51b5a253">
+      <Execution id="2542555a-ad13-42e3-afee-6d99a3e34fff" />
+      <TestMethod codeBase="D:/el/locadora/SistemaLoca/SistemaLoca.BusinnesLogic.Teste/bin/Debug/SistemaLoca.BusinnesLogic.Teste.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaLoca.BusinnesLogic.Teste.FilmeTeste, SistemaLoca.BusinnesLogic.Teste, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConsultarFilmePorTituloTeste" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a97a00e4-0e8f-7abb-5b96-b3b4ef73d13c" executionId="dbd6a88d-6286-4f70-819c-467212c7990c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="39e625ce-1dac-a815-adeb-a2aa51b5a253" executionId="2542555a-ad13-42e3-afee-6d99a3e34fff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9eb9ad8-2dcd-5488-c554-b1353bd46ba8" executionId="c476e3c5-79f6-4486-be0a-4d1e375fd96a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90f29b99-d62c-356e-4b2e-273dcc86a936" executionId="2a786d04-eb0c-45e0-8cc5-16a2c9fdd742" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c20d63fb-5063-ddc9-65c2-a7e6815a3756" executionId="f4cbe62e-23ac-4ff2-b96e-a96e990e3673" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="dbd6a88d-6286-4f70-819c-467212c7990c" testId="a97a00e4-0e8f-7abb-5b96-b3b4ef73d13c" testName="InserirFilmeTeste" computerName="DES60-DGM" duration="00:00:42.6311246" startTime="2012-04-08T21:34:31.4192084-03:00" endTime="2012-04-08T21:35:14.9356974-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dbd6a88d-6286-4f70-819c-467212c7990c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SistemaLoca.BusinnesLogic.Teste.FilmeTeste.InserirFilmeTeste threw exception: 
+System.Data.SqlClient.SqlException: Cannot drop database "SistemaLocadora" because it is currently in use.</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.SqlClient.SqlProviderServices.&lt;&gt;c__DisplayClass10.&lt;DbDeleteDatabase&gt;b__f(SqlConnection conn)
+   at System.Data.SqlClient.SqlProviderServices.UsingConnection(SqlConnection sqlConnection, Action`1 act)
+   at System.Data.SqlClient.SqlProviderServices.UsingMasterConnection(SqlConnection sqlConnection, Action`1 act)
+   at System.Data.SqlClient.SqlProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at System.Data.Entity.DropCreateDatabaseAlways`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Database.&lt;&gt;c__DisplayClass2`1.&lt;SetInitializerInternal&gt;b__0(DbContext c)
+   at System.Data.Entity.Internal.InternalContext.&lt;&gt;c__DisplayClass5.&lt;PerformDatabaseInitialization&gt;b__3()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.&lt;InitializeDatabase&gt;b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at SistemaLoca.BusinnesLogic.Repositorio.ControleAcervo.Repository`1.Insert(TEntity entity_) in D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic\Repositorio\Repository.cs:line 81
+   at SistemaLoca.BusinnesLogic.Teste.FilmeTeste.InserirFilmeTeste() in D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic.Teste\FilmeTeste.cs:line 43
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2542555a-ad13-42e3-afee-6d99a3e34fff" testId="39e625ce-1dac-a815-adeb-a2aa51b5a253" testName="ConsultarFilmePorTituloTeste" computerName="DES60-DGM" duration="00:00:24.5916249" startTime="2012-04-08T21:35:14.9506983-03:00" endTime="2012-04-08T21:35:39.5631060-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2542555a-ad13-42e3-afee-6d99a3e34fff">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SistemaLoca.BusinnesLogic.Teste.FilmeTeste.ConsultarFilmePorTituloTeste threw exception: 
+System.Data.SqlClient.SqlException: Cannot drop database "SistemaLocadora" because it is currently in use.</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.SqlClient.SqlProviderServices.&lt;&gt;c__DisplayClass10.&lt;DbDeleteDatabase&gt;b__f(SqlConnection conn)
+   at System.Data.SqlClient.SqlProviderServices.UsingConnection(SqlConnection sqlConnection, Action`1 act)
+   at System.Data.SqlClient.SqlProviderServices.UsingMasterConnection(SqlConnection sqlConnection, Action`1 act)
+   at System.Data.SqlClient.SqlProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at System.Data.Entity.DropCreateDatabaseAlways`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Database.&lt;&gt;c__DisplayClass2`1.&lt;SetInitializerInternal&gt;b__0(DbContext c)
+   at System.Data.Entity.Internal.InternalContext.&lt;&gt;c__DisplayClass5.&lt;PerformDatabaseInitialization&gt;b__3()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.&lt;InitializeDatabase&gt;b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at SistemaLoca.BusinnesLogic.Repositorio.ControleAcervo.FilmeRepository.getFilmesPorTitulo(String titulo) in D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic\Repositorio\ControleAcervo\FilmeRepository.cs:line 20
+   at SistemaLoca.BusinnesLogic.Teste.FilmeTeste.ConsultarFilmePorTituloTeste() in D:\el\locadora\SistemaLoca\SistemaLoca.BusinnesLogic.Teste\FilmeTeste.cs:line 53
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c476e3c5-79f6-4486-be0a-4d1e375fd96a" testId="a9eb9ad8-2dcd-5488-c554-b1353bd46ba8" testName="ConsultarFilmePorIdTeste" computerName="DES60-DGM" duration="00:00:09.6375512" startTime="2012-04-08T21:35:39.5751067-03:00" endTime="2012-04-08T21:35:49.2126579-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c476e3c5-79f6-4486-be0a-4d1e375fd96a">
+    </UnitTestResult>
+    <UnitTestResult executionId="2a786d04-eb0c-45e0-8cc5-16a2c9fdd742" testId="90f29b99-d62c-356e-4b2e-273dcc86a936" testName="AtualizarFilmeTeste" computerName="DES60-DGM" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a786d04-eb0c-45e0-8cc5-16a2c9fdd742">
+    </UnitTestResult>
+    <UnitTestResult executionId="f4cbe62e-23ac-4ff2-b96e-a96e990e3673" testId="c20d63fb-5063-ddc9-65c2-a7e6815a3756" testName="RemoverFilmeTeste" computerName="DES60-DGM" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4cbe62e-23ac-4ff2-b96e-a96e990e3673">
+    </UnitTestResult>
+  </Results>
+</TestRun>
